@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<?= theme_url() ?>assets/css/admin_gamme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../icone/css/font-awesome.min.css">
+    <title>Choix de Gamme</title>
+</head>
+
+<body>
+    <main>
+        <div class="main-contenair">
+            <div class="header">
+                <div class="symbole">inventaire <br> <span style="margin-left: 1.5rem;">G043</span></div>
+                <span class="btn">déconnexion <i class="fa fa-trash" aria-hidden="true"></i></span>
+            </div>
+            <div class="block-main ">
+                <h3>QUE VOULEZ-VOUS FAIRE?</h3>
+                <div class="choix">
+                    <ul>
+                        <li> <a href="#">administrer la gamme</a> </li>
+                        <li><a href="">gestionnaire de comptes</a></li>
+                        <li><a href="">lancer un inventaire</a></li>
+                        <li><a href="">archives</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
