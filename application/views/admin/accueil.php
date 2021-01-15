@@ -29,6 +29,7 @@
                         <li><a href="">Gestionnaire de compte</a></li>
                         <li><a href="<?= site_url('admin/inventaire') ?>">Lancer un inventaire</a></li>
                         <li><a href="">archives</a></li>
+                        <li><a href="">logs</a></li>
                     </ul>
                 </div>
             </div>
