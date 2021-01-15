@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Inconsolata', monospace;
+}
+
+main .main-contenair .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-contenair header{
+    background-color: rgb(26, 59, 122,1);
+    padding-bottom: .8rem;
+}
+
+.main-contenair .header h3{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 7px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.main-contenair .header .symbole{
+    color: rgb(26, 59, 122,1);
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: .7rem;
+    padding: 5px 40px;
+}
+
+.main-contenair .header .menu{
+    background-color: rgb(26, 59, 122,1);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .7rem;
+    padding: 5px 40px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+
+.main-contenair .header .btn{
+    text-transform: capitalize;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #d75e5e;
+    cursor: pointer;
+}
+
+.main-contenair header h3{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* --=====================* table *==================== */
+
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+    margin: 5px auto 10px;
+    width: 100%;
+}
+
+table, td{
+    border: 2px solid #fff;
+   padding: 10px;	
+   background: rgba(238,238,238,1);
+   color: rgba(26,59,122,1);
+   text-align: center;
+   text-transform: uppercase;
+}
+
+th{
+    padding: 10px;
+    border: 2px solid #fff;
+    text-align: center;	
+ }
+
+
+.first-line-table{
+    background: rgba(26,59,122,1);
+    color: #fff;   
+ }
+
